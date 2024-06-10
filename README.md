@@ -1,4 +1,5 @@
-	This is an application that aims to automate the process of filling and sending through mail of an excel file containing all the work shifts done.
+	This is an application that aims to automate the process of filling and sending through mail of an excel file containing all
+	the work shifts done.
 
 	The process should consist in some way in these steps:
 		1. At the absolute beginning, the employee must fill a form that has these fields:
@@ -33,8 +34,12 @@
 			- client
 			- hours presence
 			- delta
-		   The table cells, except for the headers row, weekends and national holidays (including the 14th of august as a company holiday) rows and the "Day" column, should be enabled to allow modifications. Weekends and holidays rows should be of a darker color, with the holiday rows containing the name of the holiday.
+		   The table cells, except for the headers row, weekends and national holidays (including the 14th of august as a company
+		   holiday) rows and the "Day" column, should be enabled to allow modifications. Weekends and holidays rows should be of a
+		   darker color, with the holiday rows containing the name of the holiday.
 
-		   4. After reviewing the table, the employee should save it (with the addition of a top row containing information about the employee) as an excel file by clicking a "Generate file" button.
+		   4. After reviewing the table, the employee should save it (with the addition of a top row containing information about
+		      the employee) as an excel file by clicking a "Generate file" button.
 		   
-		   Optional step. the employee has the option to click a "Generate and send file" button to save the table and automatically send the file to the boss and eventually other people.
+		   Optional step. the employee has the option to click a "Generate and send file" button to save the table and
+		      automatically send the file to the boss and eventually other people.
